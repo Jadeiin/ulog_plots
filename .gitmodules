@@ -1,0 +1,6 @@
+[submodule "2.MATLAB/ulgReader"]
+	path = 2.MATLAB/ulgReader
+	url = https://github.com/AndersonRayner/ulgReader.git
+[submodule "2.MATLAB/magnify"]
+	path = 2.MATLAB/magnify
+	url = https://github.com/zxhhlbt/Matlab-Magnify.git
