@@ -73,18 +73,13 @@ PlotJuggler 是一款强大的数据可视化工具，适合实时和离线数�
 
 ## 包含的工具
 
-### ulgReader
-
-一个快速的 MATLAB PX4 ULog 文件读取器。有关更多详细信息，请参阅 [ulgReader 文档](2.MATLAB/ulgReader/README.md)。
-
-### Magnify
-
-一个为 MATLAB 图表添加放大镜功能的工具。有关更多详细信息，请参阅 [Magnify 文档](2.MATLAB/magnify/README.md)。
+- ulgReader: 一个快速的 MATLAB PX4 ULog 文件读取器。
+- Magnify: 一个为 MATLAB 图表添加放大镜功能的工具。
 
 ## 系统要求
 
 - MATLAB（在 R2022a 上测试通过）
-- PlotJuggler（用于交互式数据可视化）
+- PlotJuggler（用于快速可视化）
 - PX4 ULog 文件
 
 ## 许可证
