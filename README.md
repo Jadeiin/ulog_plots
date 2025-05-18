@@ -42,18 +42,18 @@ ulog_plots/
 
 ### 基本使用方法
 
-1. 将您的 ULog 文件（.ulg）放在工作目录中或指定文件路径
+1. 将 ULog 文件（.ulg）放在工作目录中或指定文件路径
 2. 在 MATLAB 中打开 `plot_ulg.m`
 3. 在代码中更新文件名：
    ```matlab
-   file = 'your_logfile.ulg'; % 替换为您的日志文件名
+   file = 'your_logfile.ulg'; % 替换为日志文件名
    ```
 4. 运行脚本
 5. 生成的图表将保存在 `ulg_plots` 文件夹中
 
 ### 高级使用方法
 
-您可以通过编辑 `plot_ulg.m` 文件来自定义图表：
+可以通过编辑 `plot_ulg.m` 文件来自定义图表：
 
 - 通过修改 `figureWidth` 和 `figureHeight` 来更改图表尺寸
 - 通过 `titleSize`、`labelSize` 和 `legendSize` 参数调整字体大小
@@ -65,11 +65,11 @@ ulog_plots/
 PlotJuggler 是一款强大的数据可视化工具，适合实时和离线数据分析：
 
 1. 从 [PlotJuggler 官网](https://github.com/facontidavide/PlotJuggler) 安装最新版本
-2. 运行 PlotJuggler 并打开您的 ULog 文件
+2. 运行 PlotJuggler 并打开 ULog 文件
 3. 使用 `File -> Load Layout` 加载本仓库中的预设布局文件
 4. 使用提供的 `plotjuggler_px4.xml` 布局文件
 
-提供的布局文件包含多个专用标签页，每个标签页针对飞行数据的不同方面进行可视化。这些预设布局可帮助您快速理解飞行性能和诊断问题，您也可以基于这些布局创建自己的自定义布局。
+提供的布局文件包含多个专用标签页，每个标签页针对飞行数据的不同方面进行可视化。这些预设布局可帮助快速理解飞行性能和诊断问题，也可以基于这些布局创建自己的自定义布局。
 
 ## 包含的工具
 
